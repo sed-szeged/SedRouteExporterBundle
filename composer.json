@@ -1,0 +1,20 @@
+{
+    "name": "sed/route-exporter-bundle",
+    "type": "symfony-bundle",
+    "description": "Tool to export Symfony's routing definitions in yml, xml or php format.",
+    "homepage": "https://github.com/sed-szeged/SedRouteExporterBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Tengeri",
+            "email": "dtengeri@gmail.com",
+        },
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.3",
+        "symfony/routing": "~2.3",
+        "symfony/yaml": "~2.3",
+    },
+    "target-dir": "Sed/RouteExporterBundle"
+}
