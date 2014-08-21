@@ -11,6 +11,7 @@
 
 namespace Sed\RouteExporterBundle\Command;
 
+use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -47,7 +48,7 @@ class RouterExportCommand extends ContainerAwareCommand
     protected function configure()
     {
         $this
-            ->setName('router:export')
+            ->setName('sed:router:export')
             ->setDefinition(array(
                 new InputOption('format', 'f', InputOption::VALUE_OPTIONAL, 'Target format (yaml, xml, php) of route definitions.', 'yaml'),
                 new InputOption('output', 'o', InputOption::VALUE_REQUIRED, 'The output folder.'),
