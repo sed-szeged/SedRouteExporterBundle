@@ -6,6 +6,8 @@ It is useful if you defined your routes using annotations, but you want to migra
 
 Keep in mind that the routes will be exported into one file and some information will be lost (e.g. prefix definitions) during the exportation.
 
+[![Build Status](https://api.travis-ci.org/sed-szeged/SedRouteExporterBundle.png?branch=master)](https://travis-ci.org/sed-szeged/SedRouteExporterBundle)
+
 ## Installation
 
 1. Add SedRouteExporterBundle to your composer.json by running:
