@@ -6,7 +6,7 @@ It is useful if you defined your routes using annotations, but you want to migra
 
 Keep in mind that the routes will be exported into one file and some information will be lost (e.g. prefix definitions) during the exportation.
 
-[![Build Status](https://api.travis-ci.org/sed-szeged/SedRouteExporterBundle.png?branch=master)](https://travis-ci.org/sed-szeged/SedRouteExporterBundle)
+[![Build Status](https://api.travis-ci.org/sed-szeged/SedRouteExporterBundle.png?branch=master)](https://travis-ci.org/sed-szeged/SedRouteExporterBundle) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/97cd43f1-165e-4dac-b0d6-b2aa721ad823/mini.png)](https://insight.sensiolabs.com/projects/97cd43f1-165e-4dac-b0d6-b2aa721ad823)
 
 ## Installation
 
