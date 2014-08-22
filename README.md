@@ -27,6 +27,14 @@ Keep in mind that the routes will be exported into one file and some information
       );
   }
   ```
+
+## License
+
+This bundle is under the MIT license. See the complete license in the LICENSE file.
+
+## About
+
+The bundle is developed by the [Department of Software Engineering, University of Szeged](http://www.sed.inf.u-szeged.hu)
   
 ## Usage
 
@@ -34,5 +42,11 @@ To export the route definitions run the command:
 ``` bash
 $ php app/console sed:router:export --format <yaml/xml/php> --output <destination-dir>
 ```
+
+## Contribution
+
+Issues and feautre request are tracked in the [GitHub issue tracker](https://github.com/sed-szeged/SedRouteExporterBundle/issues).
+
+If you want to contribute, send a pull request with your changes.
   
 
